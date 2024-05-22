@@ -203,12 +203,12 @@
         },
         "bg": {
           "brand": {
-            "value": "{color.btn.bg.brand}",
+            "value": "{color.brand.100}",
             "type": "color",
             "source": "$btn-brand-disabled-bg"
           },
           "outline-brand": {
-            "value": "{color.btn.bg.outline-brand",
+            "value": "{color.brand.100}",
             "type": "color",
             "source": "$btn-brand-outline-disabled-bg"
           }
