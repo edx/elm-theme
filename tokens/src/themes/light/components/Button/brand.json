@@ -20,7 +20,7 @@
       },
       "bg": {
         "brand": {
-          "value": "{color.brand.600}",
+          "value": "{color.brand.500}",
           "type": "color",
           "source": "$btn-brand-bg"
         },
@@ -45,7 +45,7 @@
       "hover": {
         "text": {
           "brand": {
-            "value": "{color.btn.hover.bg.brand}",
+            "value": "{color.black}",
             "type": "color",
             "source": "$btn-brand-hover-color",
             "modify": [
@@ -55,7 +55,7 @@
             ]
           },
           "outline-brand": {
-            "value": "{color.brand.600}",
+            "value": "{color.brand.500}",
             "type": "color",
             "source": "$btn-brand-outline-hover-color",
             "modify": [
@@ -67,19 +67,19 @@
         },
         "bg": {
           "brand": {
-            "value": "{color.theme.hover.brand}",
+            "value": "{color.brand.100}",
             "type": "color",
             "source": "$btn-brand-hover-bg"
           },
           "outline-brand": {
-            "value": "{color.brand.600}",
+            "value": "{color.brand.500}",
             "type": "color",
             "source": "$btn-brand-outline-hover-bg"
           }
         },
         "border": {
           "brand": {
-            "value": "{color.btn.hover.bg.brand}",
+            "value": "{color.brand.500}",
             "type": "color",
             "source": "$btn-brand-hover-border-color"
           },
@@ -93,7 +93,7 @@
       "active": {
         "text": {
           "brand": {
-            "value": "{color.btn.active.bg.brand}",
+            "value": "{color.white}",
             "type": "color",
             "source": "$btn-brand-active-color",
             "modify": [
@@ -103,7 +103,7 @@
             ]
           },
           "outline-brand": {
-            "value": "{color.btn.active.bg.outline-brand}",
+            "value": "{color.brand.500}",
             "type": "color",
             "source": "$btn-brand-outline-active-color",
             "modify": [
