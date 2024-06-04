@@ -122,6 +122,22 @@ You can use the theme in two ways:
     @import '@edx/elm-theme/paragon/overrides.scss';
 
 
+-----------------------------------------
+Including Elm Styles in a Paragon Project
+-----------------------------------------
+
+If you're using Paragon with Elm and are migrating from an old theme (default theme or edx-brand), please use this document:
+
+https://openedx.atlassian.net/wiki/spaces/BPL/pages/3770744958/Migrating+MFEs+to+Paragon+design+tokens+and+CSS+variables#Requirements%3A
+
+** Follow the above steps before trying to import the elm theme **
+
+
+
+Notes: 
+ 1. This guide is for the alpha branch of Paragon, which is REQUIRED to use Elm until this project is complete https://github.com/openedx/platform-roadmap/issues/360
+ 2. run npm install before trying to install elm theme as well.
+
 -------------------------------------
 Theming with Paragon's Design Tokens
 -------------------------------------
