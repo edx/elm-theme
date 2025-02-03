@@ -629,7 +629,6 @@
   --pgn-spacing-btn-padding-y-base: var(--pgn-spacing-input-btn-padding-y);
   --pgn-size-input-btn-focus-width: 1px;
   --pgn-size-input-btn-border-width: var(--pgn-size-border-width);
-  --pgn-size-form-input-width-focus: 0.063rem;
   --pgn-size-btn-focus-width: 2px;
   --pgn-size-btn-border-width: var(--pgn-size-input-btn-border-width);
   --pgn-size-border-width: 1px; /* Default border width. */

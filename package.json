@@ -23,7 +23,7 @@
     "paragon:help": "paragon help"
   },
   "devDependencies": {
-    "@openedx/paragon": "file:../paragon/openedx-paragon-20.18.1.tgz",
+    "@openedx/paragon": "^23",
     "nodemon": "^3.1.4"
   }
 }
