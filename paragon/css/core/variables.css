@@ -63,9 +63,6 @@
   --pgn-size-popover-border-width: 0px;
   --pgn-size-nav-pills-border-radius: 0;
   --pgn-size-image-thumbnail-border-radius: 0;
-  --pgn-size-form-input-radius-border-sm: 0;
-  --pgn-size-form-input-radius-border-lg: 0;
-  --pgn-size-form-input-radius-border-base: 0;
   --pgn-size-dropdown-border-width: 0;
   --pgn-size-btn-focus-border-radius-sm: var(--pgn-size-btn-border-radius-base);
   --pgn-size-btn-focus-border-radius-lg: var(--pgn-size-btn-focus-border-radius-base);

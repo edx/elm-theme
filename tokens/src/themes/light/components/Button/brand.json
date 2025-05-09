@@ -45,7 +45,7 @@
       "hover": {
         "text": {
           "brand": {
-            "$value": "{color.black}",
+            "$value": "{color.brand.500}",
             "$type": "color",
             "source": "$btn-brand-hover-color",
             "modify": null
@@ -59,7 +59,7 @@
         },
         "bg": {
           "brand": {
-            "$value": "{color.brand.100}",
+            "$value": "{color.white}",
             "$type": "color",
             "source": "$btn-brand-hover-bg"
           },

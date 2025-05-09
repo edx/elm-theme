@@ -211,6 +211,7 @@
   --pgn-color-tooltip-light: var(--pgn-color-primary-base);
   --pgn-color-popover-header-bg: #00000000;
   --pgn-color-pagination-text-base: var(--pgn-color-primary-base);
+  --pgn-color-menu-item-focus-bg: var(--pgn-color-light-500);
   --pgn-color-form-feedback-icon-invalid: var(--pgn-color-form-feedback-invalid);
   --pgn-color-form-feedback-icon-valid: var(--pgn-color-form-feedback-valid);
   --pgn-color-form-feedback-invalid: var(--pgn-color-danger-base);
@@ -428,7 +429,7 @@
   --pgn-color-btn-hover-border-brand: var(--pgn-color-brand-500);
   --pgn-color-btn-hover-bg-outline-warning: var(--pgn-color-warning-600);
   --pgn-color-btn-hover-bg-warning: var(--pgn-color-theme-hover-warning);
-  --pgn-color-btn-hover-bg-tertiary: var(--pgn-color-primary-500);
+  --pgn-color-btn-hover-bg-tertiary: var(--pgn-color-light-500);
   --pgn-color-btn-hover-bg-outline-success: var(--pgn-color-success-600);
   --pgn-color-btn-hover-bg-success: var(--pgn-color-theme-hover-success);
   --pgn-color-btn-hover-bg-outline-secondary: var(--pgn-color-secondary-600);
@@ -444,10 +445,9 @@
   --pgn-color-btn-hover-bg-outline-danger: var(--pgn-color-danger-600);
   --pgn-color-btn-hover-bg-danger: var(--pgn-color-theme-hover-danger);
   --pgn-color-btn-hover-bg-outline-brand: var(--pgn-color-brand-500);
-  --pgn-color-btn-hover-bg-brand: var(--pgn-color-brand-100);
+  --pgn-color-btn-hover-bg-brand: var(--pgn-color-white);
   --pgn-color-btn-hover-text-outline-warning: #393939FF;
   --pgn-color-btn-hover-text-warning: #FFFFFFFF;
-  --pgn-color-btn-hover-text-tertiary: var(--pgn-color-white);
   --pgn-color-btn-hover-text-outline-success: #FFFFFFFF;
   --pgn-color-btn-hover-text-success: #FFFFFFFF;
   --pgn-color-btn-hover-text-outline-secondary: #FFFFFFFF;
