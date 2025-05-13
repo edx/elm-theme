@@ -1,15 +1,6 @@
 {
   "color": {
     "btn": {
-      "hover": {
-        "bg": {
-          "tertiary": {
-            "$value": "{color.light.500}",
-            "$type": "color",
-            "source": "$btn-inverse-tertiary-hover-bg"
-          }
-        }
-      },
       "active": {
         "text": {
           "tertiary": {
