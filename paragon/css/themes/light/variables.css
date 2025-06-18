@@ -187,6 +187,7 @@
   --pgn-color-badge-bg-info: var(--pgn-color-accent-a);
   --pgn-color-btn-text-primary: var(--pgn-color-white);
   --pgn-color-btn-bg-outline-brand: var(--pgn-color-white);
+  --pgn-color-btn-bg-inverse-outline-brand: var(--pgn-color-white);
   --pgn-color-btn-bg-danger: var(--pgn-color-danger-600);
   --pgn-color-btn-bg-outline-danger: var(--pgn-color-white);
   --pgn-color-btn-bg-dark: var(--pgn-color-dark-600);
@@ -201,6 +202,7 @@
   --pgn-color-btn-bg-warning: var(--pgn-color-warning-600);
   --pgn-color-btn-bg-outline-warning: var(--pgn-color-white);
   --pgn-color-btn-hover-text-outline-brand: var(--pgn-color-white);
+  --pgn-color-btn-hover-text-inverse-outline-brand: var(--pgn-color-white);
   --pgn-color-btn-hover-text-outline-danger: #FFFFFFFF;
   --pgn-color-btn-hover-text-outline-dark: #FFFFFFFF;
   --pgn-color-btn-hover-text-outline-info: #FFFFFFFF;
@@ -218,6 +220,7 @@
   --pgn-color-btn-hover-bg-outline-warning: var(--pgn-color-warning-600);
   --pgn-color-btn-active-text-brand: var(--pgn-color-white);
   --pgn-color-btn-active-text-inverse-brand: var(--pgn-color-white);
+  --pgn-color-btn-active-text-inverse-outline-brand: var(--pgn-color-white);
   --pgn-color-btn-active-text-primary: var(--pgn-color-white);
   --pgn-color-btn-active-bg-outline-brand: var(--pgn-color-white);
   --pgn-color-btn-active-bg-outline-primary: var(--pgn-color-white);
@@ -225,6 +228,7 @@
   --pgn-color-btn-focus-text-brand: var(--pgn-color-white);
   --pgn-color-btn-focus-text-primary: var(--pgn-color-white);
   --pgn-color-btn-focus-border-inverse-brand: var(--pgn-color-btn-border-inverse-brand);
+  --pgn-color-btn-focus-bg-inverse-outline-brand: var(--pgn-color-white);
   --pgn-color-btn-focus-bg-tertiary: var(--pgn-color-white);
   --pgn-color-btn-disabled-bg-brand: var(--pgn-color-brand-100);
   --pgn-color-btn-disabled-bg-outline-brand: var(--pgn-color-white);
@@ -354,6 +358,7 @@
   --pgn-color-theme-default-light: var(--pgn-color-light-500); /** Theme-specific light default color. */
   --pgn-color-theme-default-dark: var(--pgn-color-dark-500); /** Theme-specific dark default color. */
   --pgn-color-theme-default-gray: var(--pgn-color-gray-500); /** Theme-specific gray default color. */
+  --pgn-color-btn-text-inverse-outline-brand: var(--pgn-color-brand-500);
   --pgn-color-btn-text-danger: #FFFFFFFF;
   --pgn-color-btn-text-outline-danger: var(--pgn-color-btn-bg-danger);
   --pgn-color-btn-text-dark: #FFFFFFFF;
@@ -369,6 +374,7 @@
   --pgn-color-btn-bg-inverse-brand: var(--pgn-color-brand-500);
   --pgn-color-btn-bg-light: var(--pgn-color-light-500);
   --pgn-color-btn-bg-primary: var(--pgn-color-primary-500);
+  --pgn-color-btn-border-inverse-outline-brand: var(--pgn-color-brand-500);
   --pgn-color-btn-border-danger: var(--pgn-color-btn-bg-danger);
   --pgn-color-btn-border-outline-danger: var(--pgn-color-btn-bg-danger);
   --pgn-color-btn-border-dark: var(--pgn-color-btn-bg-dark);
@@ -383,6 +389,7 @@
   --pgn-color-btn-hover-text-inverse-brand: var(--pgn-color-brand-500);
   --pgn-color-btn-hover-text-outline-light: #454545FF;
   --pgn-color-btn-hover-bg-outline-brand: var(--pgn-color-brand-500);
+  --pgn-color-btn-hover-bg-inverse-outline-brand: var(--pgn-color-brand-500);
   --pgn-color-btn-hover-bg-danger: var(--pgn-color-theme-hover-danger);
   --pgn-color-btn-hover-bg-dark: var(--pgn-color-theme-hover-dark);
   --pgn-color-btn-hover-bg-info: var(--pgn-color-theme-hover-info);
@@ -403,6 +410,7 @@
   --pgn-color-btn-active-text-outline-primary: var(--pgn-color-primary-500);
   --pgn-color-btn-active-text-tertiary: var(--pgn-color-primary-500);
   --pgn-color-btn-active-bg-brand: var(--pgn-color-brand-500);
+  --pgn-color-btn-active-bg-inverse-outline-brand: var(--pgn-color-brand-500);
   --pgn-color-btn-active-bg-inverse-brand: var(--pgn-color-brand-500);
   --pgn-color-btn-active-bg-danger: var(--pgn-color-theme-active-danger);
   --pgn-color-btn-active-bg-outline-danger: var(--pgn-color-btn-bg-danger);
@@ -515,6 +523,7 @@
   --pgn-color-btn-hover-bg-secondary: var(--pgn-color-secondary-400);
   --pgn-color-btn-hover-bg-outline-secondary: var(--pgn-color-secondary-600);
   --pgn-color-btn-hover-border-outline-brand: var(--pgn-color-btn-hover-bg-outline-brand);
+  --pgn-color-btn-hover-border-inverse-outline-brand: var(--pgn-color-btn-hover-bg-outline-brand);
   --pgn-color-btn-hover-border-danger: var(--pgn-color-btn-hover-bg-danger);
   --pgn-color-btn-hover-border-dark: var(--pgn-color-btn-hover-bg-dark);
   --pgn-color-btn-hover-border-info: var(--pgn-color-btn-hover-bg-info);
