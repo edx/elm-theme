@@ -211,7 +211,7 @@
   --pgn-color-btn-hover-text-outline-success: #FFFFFFFF;
   --pgn-color-btn-hover-text-outline-warning: #393939FF;
   --pgn-color-btn-hover-bg-brand: var(--pgn-color-white);
-  --pgn-color-btn-hover-bg-inverse-brand: #ECECECFF;
+  --pgn-color-btn-hover-bg-inverse-brand: var(--pgn-color-white);
   --pgn-color-btn-hover-bg-outline-danger: var(--pgn-color-danger-600);
   --pgn-color-btn-hover-bg-outline-dark: var(--pgn-color-dark-600);
   --pgn-color-btn-hover-bg-outline-info: var(--pgn-color-info-600);

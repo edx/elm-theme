@@ -99,7 +99,8 @@
           },
           "inverse-brand": {
             "$value": "{color.white}",
-            "$type": "color"
+            "$type": "color",
+            "modify": null
           },
           "inverse-outline-brand": {
             "$value": "{color.brand.500}",
