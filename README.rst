@@ -2,7 +2,9 @@
 @edx/elm-theme
 ==================
 
-This project contains elm-theme branding assets and design tokens for edx.org. It is the edX implementation of the branding interface defined in `@edx/brand-openedx <https://git@github.com/edx/brand-openedx>`_. Note that we aim to avoid introducing any breaking changes.
+This project contains elm-theme branding assets and design tokens for edx.org. It is the edX implementation of the branding interface defined in `@edx/brand-openedx <https://git@github.com/edx/brand-openedx>`_. 
+
+This package provides design token overrides for Paragon v23+ and does not implement components on its own. It is intended to be used in conjunction with Paragon to apply the Elm brand identity to Paragon components and design tokens.
 
 -----
 Usage
