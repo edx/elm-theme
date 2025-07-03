@@ -173,11 +173,11 @@ Set up the project for development:
 
 **Making Changes**
 
-1. **Start Development Servers**: Run these in separate terminal windows:
-   - ``npm run build:watch`` - Watches for token changes and rebuilds CSS
-   - ``npm run serve-theme-css`` - Serves the theme CSS for preview
-2. **Update Design Tokens**: Modify JSON files in ``tokens/src/``
-3. **Preview Changes**: View changes at the provided Paragon docs URL with the local theme applied.
+#. **Start Development Servers**: Run these in separate terminal windows:
+    * ``npm run build:watch`` - Watches for token changes and rebuilds CSS
+    * ``npm run serve-theme-css`` - Serves the theme CSS for preview
+#. **Update Design Tokens**: Modify JSON files in ``tokens/src/``
+#. **Preview Changes**: View changes at the provided Paragon docs URL with the local theme applied.
 
 **File Structure**
 
