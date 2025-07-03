@@ -115,6 +115,19 @@ This package uses design tokens to define the Elm theme's visual system. These t
 
 The design tokens include colors, typography, spacing, and component styles that follow the Elm brand identity. They're defined as JSON files in the ``tokens/src`` directory and compiled into CSS custom properties following the pattern ``--pgn-*``.
 
+**Token Structure**
+
+The design tokens are organized in the following structure:
+
+- ``tokens/src/core/`` - Core tokens (typography, spacing, global utilities)
+- ``tokens/src/themes/light/`` - Light theme-specific tokens
+  - ``global/`` - Global theme tokens (colors, elevation, etc.)
+  - ``components/`` - Component-specific tokens (Button, Card, etc.)
+
+**Token Properties**
+
+Some tokens have ``"modify": null`` property specified to disable default Paragon behavior that modifies specific tokens during build time. This is used when you want to preserve exact token values without Paragon's automatic modifications.
+
 For detailed information about the available design tokens and how to use them, see the `tokens/` directory in this repository and the Paragon design system documentation.
 
 -------------
@@ -137,8 +150,6 @@ The package provides both regular and minified CSS files:
 When using the Paragon CLI's ``build-tokens`` command, the package generates a ``theme-urls.json`` file that defines the available theme files. Consuming applications can automatically inject these CSS files based on this configuration.
 
 The Elm theme overrides Paragon's default design tokens to apply the Elm brand identity. These overrides are defined in the ``tokens/src`` directory and follow the same structure as Paragon's token system.
-
-Some tokens have ``"modify": null`` property specified to disable default Paragon behavior that modifies specific tokens during build time.
 
 -----
 Development
@@ -173,7 +184,7 @@ Set up the project for development:
 
 **Making Changes**
 
-#. **Start Development Servers**: Run these in separate terminal windows:
+#. **Start Development Environment**: Run these in separate terminal windows
     * ``npm run build:watch`` - Watches for token changes and rebuilds CSS
     * ``npm run serve-theme-css`` - Serves the theme CSS for preview
 #. **Update Design Tokens**: Modify JSON files in ``tokens/src/``
