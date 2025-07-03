@@ -180,7 +180,7 @@ Set up the project for development:
 - ``npm run build-scss`` - Build SASS files
 - ``npm run build`` - Complete build process
 - ``npm run build:watch`` - Watch mode for development
-- ``npm run serve-theme-css`` - Serve theme CSS for testing
+- ``npm run serve-theme-css`` - Serve theme CSS for testing and generate Paragon docs URL
 
 **Making Changes**
 
