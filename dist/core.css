@@ -49,7 +49,7 @@
   --pgn-typography-font-weight-display-3: 900;
   --pgn-typography-font-weight-display-4: 900;
   --pgn-typography-line-height-display-mobile: 1;
-  --pgn-catalog-home-bg-image: url("../../../../images/home-bg.jpg");
+  --pgn-catalog-home-page-banner-background-image: url("../../../../images/home-bg.jpg");
   --pgn-size-btn-focus-border-radius-base: calc(var(--pgn-size-btn-border-radius-base) + var(--pgn-spacing-btn-focus-border-gap));
   --pgn-size-btn-focus-border-radius-sm: var(--pgn-size-btn-border-radius-base);
   --pgn-spacing-btn-focus-border-gap: calc(var(--pgn-size-btn-focus-width) + var(--pgn-spacing-btn-focus-gap));

@@ -8,11 +8,9 @@
       }
     }
   },
-  "catalog": {
-    "home-bg-image": {
-      "$value": "../../../../images/home-bg.jpg",
-      "$type": "asset",
-      "$description": "Catalog Home page background image."
-    }
+  "catalog-home-page-banner-background-image": {
+    "$value": "../../../../images/home-bg.jpg",
+    "$type": "asset",
+    "$description": "Catalog Home page background image."
   }
 }
