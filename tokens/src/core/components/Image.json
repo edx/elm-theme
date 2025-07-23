@@ -9,7 +9,7 @@
     }
   },
   "catalog-home-page-banner-background-image": {
-    "$value": "../../../../images/home-bg.jpg",
+    "$value": "home-bg.jpg",
     "$type": "asset",
     "$description": "Catalog Home page background image."
   }
