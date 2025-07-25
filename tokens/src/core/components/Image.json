@@ -9,7 +9,7 @@
     }
   },
   "catalog-home-page-banner-background-image": {
-    "$value": "http://local.openedx.io:8000/asset-v1:openedx4+Course_name_1+2024+type@asset+block@Home_Background.jpg",
+    "$value": "https://i.ibb.co/Y7n23h6Q/home-bg.jpg",
     "$type": "asset",
     "$description": "Catalog Home page background image."
   }
