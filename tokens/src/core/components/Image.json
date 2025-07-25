@@ -7,5 +7,10 @@
         }
       }
     }
+  },
+  "catalog-home-page-banner-background-image": {
+    "$value": "https://i.ibb.co/Y7n23h6Q/home-bg.jpg",
+    "$type": "asset",
+    "$description": "Catalog Home page background image."
   }
 }
