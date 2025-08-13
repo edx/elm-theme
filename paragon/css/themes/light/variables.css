@@ -184,7 +184,6 @@
   --pgn-color-theme-active-light: var(--pgn-color-light-900); /** Theme-specific light active color. */
   --pgn-color-theme-active-dark: var(--pgn-color-dark-900); /** Theme-specific dark active color. */
   --pgn-color-theme-active-gray: var(--pgn-color-gray-900); /** Theme-specific gray active color. */
-  --pgn-color-badge-bg-info: var(--pgn-color-accent-a);
   --pgn-color-btn-text-primary: var(--pgn-color-white);
   --pgn-color-btn-bg-outline-brand: var(--pgn-color-white);
   --pgn-color-btn-bg-inverse-outline-brand: var(--pgn-color-white);

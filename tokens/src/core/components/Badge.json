@@ -1,4 +1,16 @@
 {
+  "spacing": {
+    "$type": "dimension",
+    "badge": {
+      "padding": {
+        "x": {
+          "base": { "source": "$badge-padding-x", "$value": ".5rem" },
+          "pill": { "source": "$badge-pill-padding-x", "$value": ".6rem" }
+        },
+        "y": { "source": "$badge-padding-y", "$value": ".5rem" }
+      }
+    }
+  },
   "typography": {
     "badge": {
       "font": {
