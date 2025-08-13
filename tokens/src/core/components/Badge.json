@@ -1,4 +1,12 @@
 {
+  "spacing": {
+    "$type": "dimension",
+    "badge": {
+      "padding": {
+        "y": { "source": "$badge-padding-y", "$value": ".5rem" }
+      }
+    }
+  },
   "typography": {
     "badge": {
       "font": {
